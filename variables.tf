@@ -13,7 +13,7 @@ variable "prefix" {
   description = "(Required) Prefix to use for all resources in this module. Default: globo-dev"
 }
 
-variable "enviroment" {
+variable "environment" {
   type        = string
   description = "(Required)  Enviroment of all resources"
 }
